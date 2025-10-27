@@ -1,0 +1,11 @@
+name: healthcare
+
+services:
+  mzhealthcareapi:
+    build:
+      context: .
+      dockerfile: Mz.Healthcare.Api/Dockerfile
+    ports:            
+      - 5001:8080
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Docker"
