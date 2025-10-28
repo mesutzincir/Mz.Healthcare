@@ -17,15 +17,17 @@ The easiest way to start the application is by using **Docker Compose**.
 1. Clone the repository and navigate to the project folder:
    
    git clone https://github.com/mesutzincir/Mz.Healthcare.git
-   cd Mz.Healthcare
-Build and start the container:
+   
+2. cd Mz.Healthcare
+
+3. Build and start the container:
 
 run command "docker compose up -d --build"
 Once the container is running, open your browser and visit:
 --> http://localhost:5001/swagger/index.html
 to explore and test the API endpoints using Swagger UI.
 
-Option 2 — Run Locally with Visual Studio
+### Option 2 — Run Locally with Visual Studio
 If you’re using Visual Studio:
 
 Open the solution in Visual Studio.
