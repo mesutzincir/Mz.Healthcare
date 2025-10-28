@@ -1,7 +1,7 @@
 # Mz.Healthcare
 
 **Mz.Healthcare** is a sample Web API project demonstrating good practices such as:  
-- Building RESTful Web APIs using **.NET 8**
+- Building RESTful Web APIs using **.NET 9**
 - Integrating **Entity Framework Core** for data access
 - Using **Serilog** for structured logging
 - Writing **unit tests**
@@ -35,7 +35,7 @@ Press Run or Debug (F5) to start the application.
 Check the appsettings.json file to verify or adjust the log file path used by Serilog.
 
 ## Features
-ASP.NET Core 8 Web API
+ASP.NET Core 9 Web API
 
 Entity Framework Core (InMemory or SQL Server)
 
